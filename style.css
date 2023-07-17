@@ -1,0 +1,32 @@
+@font-face {
+    font-family: LeJourSerif;
+    src: url(le_jour_serif/Le\ Jour\ Serif.ttf);
+}
+
+.widget {
+    height: 100vh;
+}
+
+.container {
+    background-image: linear-gradient(90deg,#FFF7AD,#FFA9F9);
+    height: 600px;
+    width: 600px;
+    border-radius: 10%;
+    border: 7px solid #ffd700;
+}
+
+h1 {
+    font-family: LeJourSerif;
+    font-size: 50px;
+    padding-bottom: 2rem;
+}
+
+h2 {
+    font-size: 40px;
+    padding: 1rem;
+}
+
+p, li {
+    font-size: 25px;
+    padding: 0.25rem;
+}
